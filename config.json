@@ -82,14 +82,14 @@
   ],
   "output": [
     {
-      "type": "v2rayGeoIPDat",
+      "type": "text",
       "action": "output",
       "args": {
         "outputName": "geoip.dat"
       }
     },
     {
-      "type": "v2rayGeoIPDat",
+      "type": "text",
       "action": "output",
       "args": {
         "outputName": "geoip-only-cn-private.dat",
@@ -97,7 +97,7 @@
       }
     },
     {
-      "type": "v2rayGeoIPDat",
+      "type": "text",
       "action": "output",
       "args": {
         "outputName": "geoip-asn.dat",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "type": "v2rayGeoIPDat",
+      "type": "text",
       "action": "output",
       "args": {
         "oneFilePerList": true,
