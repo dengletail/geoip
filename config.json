@@ -85,14 +85,14 @@
       "type": "text",
       "action": "output",
       "args": {
-        "outputName": "geoip.dat"
+        "outputName": "geoip.txt"
       }
     },
     {
       "type": "text",
       "action": "output",
       "args": {
-        "outputName": "geoip-only-cn-private.dat",
+        "outputName": "geoip-only-cn-private.txt",
         "wantedList": ["cn", "private"]
       }
     },
@@ -100,7 +100,7 @@
       "type": "text",
       "action": "output",
       "args": {
-        "outputName": "geoip-asn.dat",
+        "outputName": "geoip-asn.txt",
         "wantedList": [
           "cloudflare",
           "cloudfront",
